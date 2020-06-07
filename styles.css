@@ -1,0 +1,101 @@
+
+	body {
+		color: #666;
+		font-size: 16px;
+		line-height: 27px;
+		background-color: #fff;
+	}
+
+	body.gray { background-color: #fbfbfb; }
+	body p { font-size: 16px; line-height: 27px; }
+
+/* Pixel Perfect Adjustment */
+.dashboard-box .headline h3 i.icon-material-outline-gavel { font-size: 20px; }
+.dashboard-box .headline h3 i.icon-material-outline-supervisor-account { font-size: 24px; top: 3px;}
+.dashboard-box .headline h3 i.icon-feather-folder-plus { font-size: 20px; top: 2px; margin-right: 5px; }
+.button.big i.icon-feather-plus { font-size: 20px; top: 2px; margin-left: -4px; margin-right: 5px;}
+/* Pixel Perfect Adjustment - End */
+
+.col-xl-4 {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+  }
+  .submit-field {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+  }
+  .headline {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+  }
+  .next
+   {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+  }
+
+/* Submit Forms
+------------------------------------- */
+.submit-field {
+	margin-bottom: 28px;
+	display: block;
+}
+
+.submit-field .pac-container {
+    box-shadow: none;
+    border: 1px solid #e0e0e0;
+    border-top: 1px solid #fff;
+    padding-top: 0;
+    z-index: 9;
+    left: 0 !important;
+    top: 47px !important;
+    border-radius: 0 0 4px 4px;
+}
+
+.submit-field h2 {
+	font-size: 16px;
+	font-weight: 600;
+	color: #333;
+	margin-bottom: 12px;
+}
+
+.submit-field h2 span {
+	color: #888;
+	font-weight: 500;
+}
+	/* Main Font */
+	body, h1, h2, h3, h4, h5, h6,  input[type="text"], input[type="password"], input[type="email"],
+	textarea, select, input[type="button"], input[type="submit"], button, body .pac-container
+	{ font-family: "Nunito", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; text-transform: none; }
+
+    /* Headlines */
+	h1, h2, h3, h4, h5, h6 {
+		color: #333;
+		font-weight: 500;
+		margin: 0;
+		padding: 0;
+	}
+
+	h1 { font-size: 32px; }
+	h2 { font-size: 26px; }
+	h3 { font-size: 22px; }
+	h4 { font-size: 16px; }
+	h5 { font-size: 14px; }
+	h6 { font-size: 12px; }
+
+	h3.page-title { font-size: 20px; line-height: 32px; }
+
+	.section { display: block; }
+	.section.white { background: #fff; }
+	.section.gray { background: #f9f9f9; }
+	.section.border-top { border-top: 1px solid #e0e0e0; }
+	.section.border-bottom { border-bottom: 1px solid #e0e0e0; }
+/* centa */
